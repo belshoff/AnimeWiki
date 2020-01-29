@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000000 url("https://vignette.wikia.nocookie.net/nanatsu-no-taizai/images/5/50/Wiki-background/revision/latest?cb=20180506210551&path-prefix=pt-br") top left repeat;
+  width: 1280px;
+  height: 590px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: rgba(255, 255, 0, 0.619);
+  padding: 1rem;
+  width: 97.6vw;
+  height: 5%;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 107%;
+  height: 92%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.personagens-container {
+  display: flex;
+  flex-flow: row wrap;
+  /* margin: 1rem; */
+  /* padding: 1rem; */
+  /* border: solid black thick; */
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid black thick;
+  width: 14vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.card-header {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-body {
+  flex: 1;
+  text-align: center;
+}
+
+.card-footer {
+  flex: 1;
+  text-align: center;
+}
+
+.mapa-container {
+  padding: 1rem;
+}
+
+.mapa {
+  width: 100%;
+}
+
+.container-sobre {
+  padding: 1rem;
+}
+
+.footer {
+  width: 97.6vw;
+  height: 5%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: right;
+}
